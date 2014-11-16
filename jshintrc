@@ -1,0 +1,24 @@
+{
+  "noempty": true,
+  "newcap": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "undef": true,
+  "devel": true,
+  "node": true,
+  "browser": true,
+  "evil": false,
+  "latedef": true,
+  "nonew": true,
+  "trailing": true,
+  "immed": true,
+  "smarttabs": true,
+  "esnext": true,
+  "immed": true,
+  "latedef": true,
+  "noarg": true,
+  "quotmark": true,
+  "globals": {
+    "define": true
+  }
+}
