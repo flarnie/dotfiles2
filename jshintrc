@@ -4,6 +4,7 @@
   "eqeqeq": true,
   "eqnull": true,
   "undef": true,
+  "unused": true,
   "devel": true,
   "node": true,
   "browser": true,
@@ -18,6 +19,8 @@
   "latedef": true,
   "noarg": true,
   "quotmark": true,
+  "maxparams": 3,
+  "maxlen": 83,
   "globals": {
     "define": true
   }
