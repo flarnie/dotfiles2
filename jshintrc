@@ -1,4 +1,5 @@
 {
+  "bitwise": true,
   "browser": true,
   "devel": true,
   "eqeqeq": true,
@@ -16,6 +17,19 @@
   "node": true,
   "noempty": true,
   "nonew": true,
+  "predef": [
+    "afterEach",
+    "beforeEach",
+    "describe",
+    "expect",
+    "it",
+    "jasmine",
+    "module",
+    "require",
+    "spyOn",
+    "window",
+    "xit"
+  ]
   "quotmark": true,
   "smarttabs": true,
   "trailing": true,
