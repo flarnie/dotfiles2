@@ -18,6 +18,7 @@
   "noempty": true,
   "nonew": true,
   "predef": [
+    "console",
     "afterEach",
     "beforeEach",
     "describe",
