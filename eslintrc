@@ -1,0 +1,90 @@
+env:
+  browser: true
+  es6: true
+  node: true
+
+rules:
+  block-scoped-var: 0
+  brace-style:
+  -
+   2
+  -
+   1tbs
+  -
+   allowSingleLine: false
+  camelcase:
+  -
+   2
+  -
+   properties: never
+  comma-dangle: 0
+  comma-spacing:
+  -
+   2
+  -
+   before: false
+   after: true
+  consistent-return: 0
+  ecmaFeatures:
+   modules: true
+   jsx: true
+  eqeqeq: 2
+  guard-for-in: 2
+  indent:
+  -
+   2
+  -
+   2
+  -
+   SwitchCase: 1
+  key-spacing: 0
+  new-cap:
+  -
+   2
+  -
+   newIsCap: true
+   capIsNew: false
+  no-bitwise: 2
+  no-caller: 2
+  no-dupe-args: 2
+  no-dupe-keys: 2
+  no-duplicate-case: 0
+  no-eq-null: 2
+  no-floating-decimal: 2
+  no-irregular-whitespace: 2
+  no-lonely-if: 2
+  no-multi-spaces: 0
+  no-multiple-empty-lines: 2
+  no-nested-ternary: 2
+  no-regex-spaces: 2
+  no-return-assign: 2
+  no-self-compare: 2
+  no-throw-literal: 2
+  no-underscore-dangle: 0
+  no-var: 2
+  no-void: 2
+  no-with: 2
+  prefer-const: 2
+  radix: 2
+  strict:
+  -
+   2
+  -
+   never
+  use-isnan: 2
+  valid-jsdoc:
+  -
+   2
+  -
+   prefer:
+    returns: return
+   requireParamDescription: false
+   requireReturn: false
+   requireReturnDescription: false
+  valid-typeof: 2
+  wrap-iife:
+  -
+   2
+  -
+   outside
+  yoda: 2
