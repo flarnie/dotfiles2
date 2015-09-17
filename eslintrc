@@ -1,23 +1,22 @@
 env:
+  browser: true
+  es6: true
+  node: true
+
+ecmaFeatures:
   arrowFunctions: true
   blockBindings: true
-  browser: true
   classes: true
   defaultParams: true
   destructuring: true
   forOf: true
   generators: true
+  jsx: true
   modules: true
-  es6: true
-  node: true
   restParams: true
   spread: true
   superInFunctions: true
   templateStrings: true
-
-ecmaFeatures:
-  modules: true
-  jsx: true
 
 rules:
   block-scoped-var: 0
