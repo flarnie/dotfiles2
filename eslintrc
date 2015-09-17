@@ -1,7 +1,23 @@
 env:
+  arrowFunctions: true
+  blockBindings: true
   browser: true
+  classes: true
+  defaultParams: true
+  destructuring: true
+  forOf: true
+  generators: true
+  modules: true
   es6: true
   node: true
+  restParams: true
+  spread: true
+  superInFunctions: true
+  templateStrings: true
+
+ecmaFeatures:
+  modules: true
+  jsx: true
 
 rules:
   block-scoped-var: 0
@@ -25,9 +41,6 @@ rules:
    before: false
    after: true
   consistent-return: 0
-  ecmaFeatures:
-   modules: true
-   jsx: true
   eqeqeq: 2
   guard-for-in: 2
   indent:
@@ -44,23 +57,35 @@ rules:
   -
    newIsCap: true
    capIsNew: false
+  no-alert: 2
   no-bitwise: 2
   no-caller: 2
+  no-console: 2
+  no-constant-condition: 2
+  no-debugger: 2
   no-dupe-args: 2
   no-dupe-keys: 2
   no-duplicate-case: 0
+  no-extra-parens: 2
+  no-extra-semi: 2
   no-eq-null: 2
   no-floating-decimal: 2
+  no-func-assign: 2
+  no-invalid-regexp: 2
   no-irregular-whitespace: 2
   no-lonely-if: 2
   no-multi-spaces: 0
   no-multiple-empty-lines: 2
+  no-negated-in-lhs: 2
   no-nested-ternary: 2
   no-regex-spaces: 2
   no-return-assign: 2
   no-self-compare: 2
   no-throw-literal: 2
+  no-undef: 2
   no-underscore-dangle: 0
+  no-unreachable: 2
+  no-unused-vars: 2
   no-var: 2
   no-void: 2
   no-with: 2
