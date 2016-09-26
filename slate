@@ -3,6 +3,10 @@ config defaultToCurrentScreen true
 # Position Aliases
 alias full              move                    screenOriginX;screenOriginY screenSizeX;screenSizeY
 
+# Monitor Aliases
+alias mon-main          0
+alias mon-secondary     1
+
 # halves
 alias top               push up                 bar-resize:screenSizeY/2
 alias right             push right              bar-resize:screenSizeX/2
@@ -32,4 +36,4 @@ bind                    up:ctrl;alt;cmd         chain ${top} | ${small-top} | ${
 bind                    right:ctrl;alt;cmd      chain ${right} | ${small-right} | ${big-right}
 bind                    down:ctrl;alt;cmd       chain ${bottom} | ${small-bottom} | ${big-bottom}
 bind                    left:ctrl;alt;cmd       chain ${left} | ${small-left} | ${big-left}
-bind                    f:ctrl;alt;cmd          ${full}
+bind                    f:ctrl;alt;cmd          ${full}    ${mon-main}
