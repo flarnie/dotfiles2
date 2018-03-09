@@ -32,8 +32,8 @@ alias bottom-left       corner bottom-left      resize:screenSizeX/2;screenSizeY
 alias top-left          corner top-left         resize:screenSizeX/2;screenSizeY/2
 
 # Push Bindings
-bind                    up:ctrl;alt;cmd         chain ${top} | ${small-top} | ${big-top}
-bind                    right:ctrl;alt;cmd      chain ${right} | ${small-right} | ${big-right}
-bind                    down:ctrl;alt;cmd       chain ${bottom} | ${small-bottom} | ${big-bottom}
-bind                    left:ctrl;alt;cmd       chain ${left} | ${small-left} | ${big-left}
+bind                    k:ctrl;alt;cmd         chain ${top} | ${small-top} | ${big-top}
+bind                    l:ctrl;alt;cmd         chain ${right} | ${small-right} | ${big-right}
+bind                    j:ctrl;alt;cmd         chain ${bottom} | ${small-bottom} | ${big-bottom}
+bind                    h:ctrl;alt;cmd         chain ${left} | ${small-left} | ${big-left}
 bind                    f:ctrl;alt;cmd          ${full}    ${mon-main}
