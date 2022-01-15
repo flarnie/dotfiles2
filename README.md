@@ -55,8 +55,11 @@ Misc. dotfile configurations, *excluding my Vim configs* which
 `git clone git@github.com:flarnie/dotfiles2.git ~/.dotfiles/`
 
 `ln -s .dotfiles/.jshintrc .jshintrc`
+
 `ln -s .dotfiles/slate ~/.slate`
+
 `ln -s .dotfiles/git-commit-message ~/.gitmessage`
+
 `git config commit.template ~/.gitmessage`
 
 Set the configs in VSCode by copy-pasting.
