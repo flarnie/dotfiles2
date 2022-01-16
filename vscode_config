@@ -1,4 +1,4 @@
-
+{
   // --- APPEARANCE
   "workbench.colorTheme": "Solarized Dark", // "Monokai" is good too
   "window.zoomLevel": 3,
@@ -47,4 +47,4 @@
   "editor.wordWrap": "off",
   "redhat.telemetry.enabled": true,
   "editor.accessibilitySupport": "off",
-  }
+}
