@@ -58,7 +58,7 @@ Misc. dotfile configurations, *excluding my Vim configs* which
 
 `ln -s .dotfiles/git-commit-message ~/.gitmessage`
 
-`git config commit.template ~/.gitmessage`
+`git config --global commit.template ~/.gitmessage`
 
 Set the configs in VSCode by copy-pasting.
 Open Preferences > Settings, and click the button in the top right.
