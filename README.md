@@ -49,6 +49,8 @@ Misc. dotfile configurations, *excluding my Vim configs* which
   - [Visual Studio Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - [Vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
   - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+  - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
 ### The Dotfiles
 
