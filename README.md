@@ -1,6 +1,6 @@
 # Dotfiles
 
-Misc. dotfile configurations, *excluding my Vim configs* which
+Misc. dotfile configurations, _excluding my Vim configs_ which
 [have their own repository][dotvim].
 
 [dotvim]: https://github.com/flarnie/dotvim/commits?author=flarnie
@@ -9,36 +9,36 @@ Misc. dotfile configurations, *excluding my Vim configs* which
 
 ### Applications to set up
 
-* Firefox
+- Firefox
 
-* Chrome (for testing)
+- Chrome (for testing)
 
-* Making a `Code` directory and favoriting it.
+- Making a `Code` directory and favoriting it.
+
   - Open the Finder Window.
   - Click on "File" -> "Find".
   - In the top right search textfield, enter the folder name you want to link to.
   - In the dropdown menu, filter by "Folder".
   - Once you find the folder, drag and drop it in the Favorites.
 
-* [Slate](https://github.com/jigish/slate)
-  - [Use solution from recent issue to set up permissions.](https://github.com/jigish/slate/issues/528)
-  - Navigate to Preferences > Security & Privacy > Privacy > Accessibility
-  - Give Slate permission to control size/position of windows.
+- [Rectangle App](https://rectangleapp.com/)
+- [Homebrew](https://brew.sh/)
 
-* [Homebrew](https://brew.sh/)
+- iterm
 
-* iterm
   - `brew install iterm2`
 
-* zsh
+- zsh
+
   - `brew install zsh`
 
-* [oh-my-zsh](https://ohmyz.sh/)
+- [oh-my-zsh](https://ohmyz.sh/)
 
-* [Solarized for iterm2](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
+- [Solarized for iterm2](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
+
   - Profiles > Edit Profiles > Preferences > Color Presets
 
-* VSCode and extensions
+- VSCode and extensions
   - [Apollo GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
@@ -65,6 +65,3 @@ Misc. dotfile configurations, *excluding my Vim configs* which
 Set the configs in VSCode by copy-pasting.
 Open Preferences > Settings, and click the button in the top right.
 [The button in the top right once you open preferences > settings](how_to_set_vscode_configs.png)
-
-
-
